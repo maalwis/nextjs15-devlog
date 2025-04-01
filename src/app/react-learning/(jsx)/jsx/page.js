@@ -1,6 +1,6 @@
-'use client'  // Enable client-side rendering for this component
+'use client'  // Enable client-side rendering for this home
 
-import React from 'react'  // Import React library to use JSX and component features
+import React from 'react'  // Import React library to use JSX and home features
 
 /*
   This page illustrates the basics of JSX in React.
@@ -47,4 +47,4 @@ function Page () {
     )
 }
 
-export default Page  // Export the Page component as default so it can be imported in other parts of the app
+export default Page  // Export the Page home as default so it can be imported in other parts of the app

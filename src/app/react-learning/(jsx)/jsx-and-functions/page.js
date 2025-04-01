@@ -1,6 +1,6 @@
-'use client'  // Enable client-side rendering for this component
+'use client'  // Enable client-side rendering for this home
 
-import React from 'react'  // Import React library to enable JSX and component features
+import React from 'react'  // Import React library to enable JSX and home features
 
 /*
   This page demonstrates how to use functions to dynamically generate and reuse JSX elements.
@@ -33,7 +33,7 @@ function Greeting(isMorning) {
     }
 }
 
-// A function that returns an alert box component displaying a message.
+// A function that returns an alert box home displaying a message.
 // It uses a div with a CSS class 'alert' for styling purposes.
 function alertBox(message) {
     return (
@@ -44,7 +44,7 @@ function alertBox(message) {
 }
 
 // A function that conditionally returns an alert box based on the provided condition.
-// If the condition is true, it returns the alertBox component with the message; otherwise, it returns null.
+// If the condition is true, it returns the alertBox home with the message; otherwise, it returns null.
 function showAlert(condition, message) {
     if (condition) {
         return alertBox(message);
@@ -83,4 +83,4 @@ function Page () {
     )
 }
 
-export default Page  // Export the Page component as default for use in the app
+export default Page  // Export the Page home as default for use in the app

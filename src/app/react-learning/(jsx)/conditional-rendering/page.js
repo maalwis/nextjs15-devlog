@@ -1,6 +1,6 @@
-'use client'  // Enable client-side rendering for this component
+'use client'  // Enable client-side rendering for this home
 
-import React from 'react'  // Import React library to use JSX and component features
+import React from 'react'  // Import React library to use JSX and home features
 
 /*
   This page demonstrates how to implement conditional rendering in React.
@@ -56,4 +56,4 @@ function Page () {
     }
 }
 
-export default Page  // Export the Page component as default so it can be used elsewhere
+export default Page  // Export the Page home as default so it can be used elsewhere

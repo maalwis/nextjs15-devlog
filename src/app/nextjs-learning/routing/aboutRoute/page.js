@@ -1,5 +1,5 @@
 // This file defines a static route at '/nextjs-learning/routing/aboutRoute', demonstrating deeper nesting in the App Router.
-// It’s a Server Component, ideal for static content like an 'About' page, rendering efficiently on the server.
+// It’s a Server Component, ideal for static content like an 'about' page, rendering efficiently on the server.
 
 import React from 'react'
 
@@ -23,5 +23,5 @@ function AboutPage() {
     )
 }
 
-// Exported as default, mapping this component to its respective route in the Next.js application.
+// Exported as default, mapping this home to its respective route in the Next.js application.
 export default AboutPage
