@@ -118,7 +118,7 @@ function ProductDetails({ params }) {
                         }}>
                             <strong>Customer Reviews:</strong> {productDetails.reviewCount} reviews
                         </p>
-                        <Link href={`/nextjs-learning/routing/dynamicRoute/product/${productId}/reviews`} style={{
+                        <Link href={`/nextjs-learning/routing/nestedDynamicRoute/product/${productId}/reviews`} style={{
                             backgroundColor: '#4361ee',
                             color: '#fff',
                             textDecoration: 'none',
@@ -134,7 +134,7 @@ function ProductDetails({ params }) {
             </div>
 
             <div style={{ marginTop: '16px' }}>
-                <Link href="/nextjs-learning/routing/dynamicRoute/product" style={{
+                <Link href="/nextjs-learning/routing/nestedDynamicRoute/product" style={{
                     color: '#4361ee',
                     textDecoration: 'none',
                     display: 'inline-flex',
