@@ -20,10 +20,10 @@
 // - **Server Components**: Handle server-side tasks like fetching data and rendering static or dynamic HTML. They lack access to browser APIs or hooks (e.g., 'useState', 'useEffect').
 // - **Client Components**: Manage client-side interactivity (e.g., state, event handlers) and can use browser APIs. They require the 'use client' directive at the file’s top.
 
-// == 04. Next.js File-System Based Routing ==
+// == Next.js File-System Based Routing ==
 // Next.js uses a file-system-based routing system with these conventions:
-// - A 'Profile.js' file in a directory defines the page for that route (e.g., 'app/about/Profile.js' → '/about').
-// - Nested folders create nested routes (e.g., 'blog/first/Profile.js' → '/blog/first').
+// - A 'page.js' file in a directory defines the page for that route (e.g., 'app/about/page.js' → '/about').
+// - Nested folders create nested routes (e.g., 'blog/first/page.js' → '/blog/first').
 // - Dynamic routes use brackets like '[param]' to capture URL segments (e.g., '[productId]' for '/product/123').
 // - Special files like 'layout.js' (shared UI), 'error.js' (error handling), or 'loading.js' (loading states) enhance route functionality.
 

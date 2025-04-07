@@ -7,7 +7,7 @@ import React from 'react'
 function AboutPage() {
     // Returns a simple layout with centered text, styled for a clean presentation.
     return (
-        // This div provides a full-width container with padding and a light gray background for contrast.
+        // This div provides a full-width container with padding and a light-gray background for contrast.
         <div style={{
             textAlign: 'center',
             padding: '40px',
