@@ -6,8 +6,8 @@ import Layout from "../components/Layout"          // Import the Layout componen
 /*
   Home Component - Route: '/react-learning/home'
 
-  This components serves as the main landing page for the React learning module.
-  It demonstrates components composition by including the Header and Footer components.
+  This component serves as the main landing page for the React learning module.
+  It demonstrates component composition by including the Header and Footer components.
   The Header now has a fully designed navigation bar that links to other pages.
   The layout follows a simple UI structure that can be enhanced with additional styling.
 
